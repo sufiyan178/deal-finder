@@ -1,0 +1,23 @@
+# Secrets & environment variables
+.env
+.env.*
+!.env.example
+
+# Python & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# Next.js & Node
+node_modules/
+.next/
+out/
+build/
+
+# Logs & OS files
+*.log
+.DS_Store
+Thumbs.db
