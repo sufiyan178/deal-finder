@@ -136,3 +136,11 @@ cd ..
 
 - **Developed by:** Niyati Shah, M. Sufiyan Makandar, and Amogh Pawar
 - **Under the guidance of:** Varun Sarvade
+
+## Quick Start (`start-app.bat`)
+
+
+
+On Windows, double-click `start-app.bat` in the project root to open the FastAPI backend (`http://127.0.0.1:8000`) and Next.js frontend (`http://localhost:3000`) in separate Command Prompt windows and launch `http://localhost:3000` in your browser.
+
+If your virtual environment is named `.venv` instead of `venv`, update `venv\Scripts\activate.bat` inside `start-app.bat` to `.venv\Scripts\activate.bat`.
