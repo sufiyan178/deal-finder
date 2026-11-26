@@ -19,7 +19,7 @@ SUPABASE_KEY = os.getenv("SUPABASE_KEY")
 
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
-app = FastAPI(title="BuyHatke Clone API", version="4.0")
+app = FastAPI(title="Deal Finder API", version="4.0")
 
 app.add_middleware(
     CORSMiddleware,
@@ -1047,4 +1047,4 @@ def get_products(user_id: str | None = None):
 
 @app.get("/")
 def root():
-    return {"message": "BuyHatke Backend is running!"}
+    return {"message": "Deal Finder Backend is running!"}

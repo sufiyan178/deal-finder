@@ -455,7 +455,7 @@ export default function Home() {
         <header className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 border-b border-slate-800 pb-6">
           <div>
             <h1 className="text-3xl font-bold text-emerald-400">
-              BuyHatke Smart Price Tracker
+              Deal Finder Smart Price Tracker
             </h1>
             <p className="text-slate-400 text-sm mt-1">
               Compare prices by product name or link across Amazon and Flipkart,

@@ -24,7 +24,7 @@ A full-stack price comparison and historical price-tracking web application for 
 4. Start the server: `uvicorn main:app --reload`
 
 ### Frontend (Next.js)
-1. Open `buyhatke-frontend`: `cd buyhatke-frontend`
+1. Open `deal-finder-frontend`: `cd deal-finder-frontend`
 2. Install packages: `npm install`
 3. Start dev server: `npm run dev`
 
