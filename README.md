@@ -105,9 +105,6 @@ create index if not exists idx_price_history_recorded_at on public.price_history
 ### 1. Environment Variables
 Copy `.env.example` to `.env` in the root folder (`deal-finder/.env`) and add your Supabase credentials:
 ```env
-SUPABASE_URL=[https://your-project-ref.supabase.co](https://your-project-ref.supabase.co)
-SUPABASE_KEY=your_supabase_anon_or_service_role_key
-NEXT_PUBLIC_API_BASE=[http://127.0.0.1:8000](http://127.0.0.1:8000)
 ```
 
 ### 2. First-Time Installation
